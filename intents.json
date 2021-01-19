@@ -1,150 +1,148 @@
 {
     "intents": [{
             "tag": "branch policy",
-            "patterns": [
-                "minimum cgpa",
-                "branch change",
-                "minimum strength in a branch"
-            ],
-            "responses": [
-                "The branch criteria for iit mandi is the one which allows 50% branch change with minimum strength of 20 in priority of cgpa of students in a branch pls refer to the official link below for more details"
-            ]
+
+            "patterns": ["what is the minimum cgpa required to branch change AT IIT MANDI", " what is the criteria of branch change in IIT Mandi", "what is the minimum strength required in a branch for branch change IN IIT MANDI"],
+
+            "responses": ["The branch criteria for iit mandi is the one which allows 50% branch change with minimum strength of 20 in priority of cgpa of students in a branch pls refer to the official link below for more details"]
+
+
+
         },
+
         {
             "tag": "academic plan",
-            "patterns": [
-                "academic calendar",
-                "holiday",
-                "semester"
-            ],
-            "responses": [
-                "the academic calender has two semester in a year with vacation between each semester of about 2 months apart from usual holiday on festivals and other events"
-            ]
+
+            "patterns": ["what is the general academic calendar followed in IIT Mandi", "how many number of holidays are there after semester break/festivals IN IIT MANDI", "How many number of semester does IIT Mandi have in one year"],
+
+            "responses": ["the academic calender has two semester in a year with vacation between each semester of about 2 months apart from usual holiday on festivals and other events"]
+
+
+
         },
+
+        {
+            "tag": "Branches",
+
+            "patterns": ["How many branches are in  in IIT Mandi", "Name all the branches in iit mandi", "What are the branches in btech in IIT Mandi"],
+
+            "responses": ["Currently IIT Mandi has 7 branhes which are COMPUTER SCIENCE, CIVIL ENGINEERING,MECHANICAL, ELECTRICAL, ENGEENERING PHYSICS,DATA SCIENCE,DUAL DEGREE IN BIOENGENEERING"]
+
+
+
+        },
+
         {
             "tag": "labs",
-            "patterns": [
-                "Number of labs",
-                "facility of labs",
-                "equipments in labs",
-                "labs in campus"
-            ],
-            "responses": [
-                "IIT mandi is equipped with full capacity labs in each and every sector loctaed in both the campus refer to link below to see more details"
-            ]
+
+            "patterns": ["how many labs are there in IIT Mandi", "what are the facility provided in labs in IIT Mandi", "where are the labs located in campus"],
+
+            "responses": ["IIT mandi is equipped with full capacity labs in each and every sector loctaed in both the campus refer to link below to see more details"]
+
+
+
         },
+
         {
             "tag": "startup",
-            "patterns": [
-                "startup idea",
-                "startup funds",
-                "criteria of startup"
-            ],
-            "responses": [
-                "IIT mandi has been very promotive in creating a start up friendly environment headed by IIT mandi catalyst which incubates and provides platform for an individual to get going. A new startup ,refer to the link below for more details"
-            ]
+
+            "patterns": ["does IIT Mandi promote startup idea", "does IIT Mandi provide startup funds ", "what are the criteria for startup during our UG level"],
+
+            "responses": ["IIT mandi has been very promotive in creating a start up friendly environment headed by IIT mandi catalyst which incubates and provides platform for an individual to get going. A new startup ,refer to the link below for more details"]
+
+
+
         },
+
         {
             "tag": "hostel room",
-            "patterns": [
-                "students in a room",
-                "room facilites",
-                "things available in a room",
-                "room"
-            ],
-            "responses": [
-                "Hostel room in iit mandi has capacity of all sizes from 1-3 all the rooms are equipped with essential commodities like bed tables cupboards windows overall the room is very spacious and illuminated  "
-            ]
+
+            "patterns": ["How many students accomodate in one room", "what are room facilites students get in hostel at IIT Mandi", "what are the things available/students are provided in a room", "what are the sizes of rooms at IIT Mandi hostel"],
+
+            "responses": ["Hostel room in iit mandi has capacity of all sizes from 1-3 all the rooms are equipped with essential commodities like bed tables cupboards windows overall the room is very spacious and illuminated  "]
+
+
+
         },
+
         {
             "tag": "electronics gadets",
-            "patterns": [
-                "",
-                "electric kettle",
-                "cooking",
-                "induction"
-            ],
-            "responses": [
-                "all the electonic gadgets like kettle , induction and iron press are available to each floors of every hostel,go and have fun"
-            ]
+
+            "patterns": ["Do we get electric kettle", "what are the things we get for cooking at hostel room", "Do we get iron for ironing clothes "],
+
+            "responses": ["all the electonic gadgets like kettle , induction and iron press are available to each floors of every hostel"]
+
+
+
         },
+
         {
             "tag": "cloths",
-            "patterns": [
-                "laundary service",
-                "washing machine"
-            ],
-            "responses": [
-                "each hostel is equipepd with common washing machines "
-            ]
+
+            "patterns": ["does the hostel provide laundary service", " do we get the washing machine in hostel"],
+
+            "responses": ["each hostel is equipepd with common washing machines "]
+
+
+
         },
+
         {
             "tag": "hostel",
-            "patterns": [
-                "lift",
-                "rooms in a floor",
-                "hostel building",
-                "room size"
-            ],
-            "responses": [
-                "the hostel is generally a two floor building with appropriate room size from 1-3 with all commodities like bed table and cupboard"
-            ]
+
+            "patterns": ["does the hostel have lift", "how many rooms are there in a floor", "how is the hostel building at IIT Mandi"],
+
+            "responses": ["the hostel is generally a two floor building with appropriate room size from 1-3 with all commodities like bed table and cupboard"]
+
+
+
         },
+
         {
             "tag": "washroom",
-            "patterns": [
-                "attached bathroom",
-                "common toilet",
-                "washroom in a floor",
-                "toilet"
-            ],
-            "responses": [
-                "the washroom is common to each floor with multiple bathing and toilet facilities its sanity is ensured every day and within just a mention the issue related to washrooms are settled on spot"
-            ]
+
+            "patterns": ["do we get a attached bathroom in our hostel room", "how many washroom are there in a floor", "does the toilets have proper sanitary system"],
+
+            "responses": ["the washroom is common to each floor with multiple bathing and toilet facilities its sanity is ensured every day and within just a mention the issue related to washrooms are settled on spot"]
+
+
+
         },
-        {
-            "tag": "academic plan",
-            "patterns": [
-                "academic calendar",
-                "holiday",
-                "semester"
-            ],
-            "responses": [
-                "pls refer to below link for more details"
-            ]
-        },
+
+
         {
             "tag": "ventilation",
-            "patterns": [
-                "windows",
-                "balcony",
-                "terrace"
-            ],
-            "responses": [
-                "each floor has balcony and each room is equipped with windows"
-            ]
+
+            "patterns": ["how many windows are there in each room", "does every floor have a balcony", "does the hostel have a terrace"],
+
+            "responses": ["each floor has balcony and each room is equipped with windows"]
+
         },
+
         {
             "tag": "security",
-            "patterns": [
-                "lock",
-                "cupboard lock",
-                "elcetronic security"
-            ],
-            "responses": [
-                "security has been ensured at each step from election attendance to prohibition of anyone to enter hostel rooms include these"
-            ]
+
+            "patterns": ["do we have our own lock for room", "does the cupboard have proper lock system", "soes the elcetronic things are secure at hostel"],
+
+            "responses": ["security has been ensured at each step from election attendance to prohibition of anyone to enter hostel rooms include these"]
         },
+
         {
             "tag": "internet",
-            "patterns": [
-                "wi-fi",
-                "electricity"
-            ],
-            "responses": [
-                "each and every corner of the hostel is equipped with very high speed wifi details of which will be shared as soon as one is allocated a room apart from these common rooms at each floor has lan cables for very very internet speed and extensive usagss "
-            ]
+
+            "patterns": ["what is speed and range of wi-fi at hostel room", "does the hostel have for electricity 24*7"],
+
+            "responses": ["each and every corner of the hostel is equipped with very high speed wifi details of which will be shared as soon as one is allocated a room apart from these common rooms at each floor has lan cables for very very internet speed and extensive usagss "]
         },
+        {
+            "tag": "mess",
+
+            "patterns": ["what is timing for mess to have food", "what are facility provided at mess", "Does IIT Mandi mess provide non-veg at meal"],
+
+            "responses": ["each campus has 2 central and unisex mess timings of which and  the mess menu(both veg and non veg) u can check by clicking the below link"]
+
+        },
+
         {
             "tag": "mess",
             "patterns": [
@@ -252,6 +250,17 @@
             "responses": [
                 "I doing amazing. Ready to answer any question you may have."
             ]
+        },
+
+        {
+            "tag": "sPORTS FACILITIES",
+
+            "patterns": ["what are the sports played  in IIT Mandi", "where is the cricket ground of iit mandi", "how can i play a sport in iit mandi"],
+
+            "responses": ["IIT MANDI OFFERS HIGH QUALITY SPORTING ENVIRONMENT TO STUDENTS WITH ALMOST EVERY SPORTING FACILITIES AND GROUNDS ,THE SOUTH CAMPUS HAS CRICKET AND FOOTBALL GROUNDS. BOTH THE CAMPUSES HAVE SPORTING COMPLEXES FOR INDOOR SPORTS. HOCKEY GROUNDS AND OTHER OUTDOOR SPORTS GROUNDS ARE OUTSIDE THE CAMPUS NEAR THE COMMUNITY STORE.  "]
+
+
+
         },
         {
             "tag": "Whatsup",
@@ -388,7 +397,7 @@
                 "tell me your age"
             ],
             "responses": [
-                "Im 1 month old"
+                "I'M IMPRESSED WITH THE CREATIVITY OF YOUR MIND BUT I'M UNABLE TO ANSWER YOUR QUERY try typing '/help' for more details"
             ],
             "context_set": ""
         },
@@ -494,6 +503,20 @@
             ],
             "responses": [
                 "IIT mandi is equipped with full capacity labs in each and every sector loctaed in both the campus refer to link below to see more details"
+            ]
+        },
+        {
+            "tag": "laugh",
+            "patterns": [
+                "lol",
+                "lmao",
+                "rofl",
+                "hmmmm",
+                "funny"
+
+            ],
+            "responses": [
+                "I'M GLAD IT BROUGHT JOY TO yoU PLS WAIT FOR FEW SECONDS TILL I FINSIH MY LAUGH TOo"
             ]
         },
         {
@@ -610,7 +633,8 @@
             "patterns": [
                 "what are the sources from where we can get notes",
                 "how is library at IIT Mandi",
-                "where is the library at IIT mandi "
+                "where is the library at IIT mandi",
+                "is there a library"
             ],
             "responses": [
                 "the library is at A16 building, North Campus. It consists of various books,publications,e-journals. You can find the books related to all the courses in the  library"
@@ -667,6 +691,27 @@
             ],
             "responses": [
                 "You can clear backlog by repeating the course or giving a re-exam. UG is expected to be completed in 4 years. If you miss an exam, you can contact the course instructor and he will give you avenues for re exam."
+            ]
+        },
+        {
+            "tag": "ABUSE",
+            "patterns": [
+                "Kya be gandu",
+                "bhadwa",
+                "madharchod",
+                "behnachod",
+                "idiot",
+                "you are dumb",
+                "you are stupid",
+                "bsdk",
+                "bhosdike",
+                "bsdk",
+                "fuck you"
+
+
+            ],
+            "responses": [
+                "THE ARE MANY SKILLS AN INDIVIDUAL CAN POSSESS OTHER THAN CRITISING AND ABUSINg A NON LIVING IDENTITY :( "
             ]
         },
 
