@@ -1,5 +1,5 @@
 process.env["NTBA_FIX_319"] = 1;
-
+var port = process.env.PORT || 3000;
 const telegrambot = require('node-telegram-bot-api');
 const Promise = require('bluebird');
 Promise.config({
@@ -27,3 +27,4 @@ bot.on('message', (msg) => {
     py.stdin.end();
 
 });
+app.listen(port, () => { console.log("sexy") })
