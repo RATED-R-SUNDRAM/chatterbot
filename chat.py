@@ -27,7 +27,7 @@ def main():
         print("TO GET ANSWERS FROM THE WEB ABOUT ANY TOPIC type '/gen' before the question to get a general response from the internet")
         print()
         print("IN CASE YOU ARE STILL STUCK TYPE '/help' TO GET THE RESOURCES WHERE YOU CAN FIND YOUR QUERIES")
-    if lines[:5]=="/help":
+    elif lines[:5]=="/help":
         print("Welcome to my help section.....")
         print()
         print("IF YOUR QUES IS RELATED TO PROGRAMMING THEN 'https://kamandprompt.zulipchat.com/' IS THE PLACE YOU CAN GET THE ANSWERS FROM OUR SENIORS")
@@ -35,7 +35,7 @@ def main():
         print("IF YOUR QUES IS RELATED TO ANY QUERY ABOUT IIT MANDI THEN 'https://wiki.iitmandi.co.in/p/Main_Page' IS THE PLACE WHERE ALL OF YOUR QUERIES WILL FIND A SOLUTION")
         print()
         print("IF YOU HAVE ANY QUERY ABOUT THE BOT CONTACT US AT 'https://github.com/mrkhan02/chatterbot/issues' ")
-    if lines[:4]=="/gen":
+    elif lines[:4]=="/gen":
         print(wikipedia.summary(lines[4:], sentences = 4))
          
 

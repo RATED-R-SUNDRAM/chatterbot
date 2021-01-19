@@ -2,11 +2,7 @@ process.env["NTBA_FIX_319"] = 1;
 
 const telegrambot = require('node-telegram-bot-api');
 var token = "1415465961:AAHbf0zop4xQVTUf4Cg5Qc5_RqCTXtz6zwg"
-const tg = new telegrambot.Telegram(token, {
-    webAdmin: {
-        port: process.env.PORT
-    }
-});
+
 const Promise = require('bluebird');
 Promise.config({
     cancellation: true
